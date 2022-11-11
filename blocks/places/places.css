@@ -1,0 +1,18 @@
+.places {
+  align-self: flex-start;
+  margin-left: 148px;
+  margin-top: 12px;
+}
+
+@media (max-width: 1024px) {
+  .places {
+    margin-left: 50px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .places {
+    margin: 0 auto;
+  }
+}

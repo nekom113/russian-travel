@@ -1,0 +1,9 @@
+.selection {
+  opacity: 1;
+  transition: opacity .5s ease;
+}
+
+.selection:hover {
+  opacity: .2;
+  transition: all .5s ease;
+}

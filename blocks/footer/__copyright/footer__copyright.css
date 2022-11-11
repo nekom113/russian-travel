@@ -1,0 +1,15 @@
+.footer__copyright {
+
+  text-align: end;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+  flex-grow: 1;
+}
+
+@media (max-width: 460px) {
+  .footer__copyright {
+    padding-top: 16px;
+    flex-grow: 0;
+  }
+}

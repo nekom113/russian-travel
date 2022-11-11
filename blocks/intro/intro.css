@@ -1,0 +1,30 @@
+.intro {
+  box-sizing: border-box;
+  margin-top: 81px;
+  align-self: flex-start;
+  padding-left: 149px;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    margin-top: 80px;
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    margin: 0 auto;
+    margin-top: 79px;
+    padding: 0;
+    align-self: center;
+    width: calc(100% - 48px);
+  }
+}
+
+@media (max-width: 460px) {
+  .intro {
+    margin-top: 54px;
+    width: 288px;
+  }
+}

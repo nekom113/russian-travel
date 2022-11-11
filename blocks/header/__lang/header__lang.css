@@ -1,0 +1,7 @@
+.header__lang {
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

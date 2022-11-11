@@ -1,0 +1,15 @@
+.header__logo {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 176px;
+  max-height: 52px;
+  position: relative;
+  top: -8px;
+}
+
+@media (max-width: 460px) {
+  .header__logo {
+    min-width: 142px;
+    max-height: 42px;
+  }
+}

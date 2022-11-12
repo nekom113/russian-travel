@@ -1,12 +1,13 @@
 .places {
   align-self: flex-start;
-  margin-left: 148px;
+  padding-left: 148px;
   margin-top: 12px;
 }
 
 @media (max-width: 1024px) {
   .places {
-    margin-left: 50px;
+    box-sizing: border-box;
+    padding-left: 50px;
     margin-top: 15px;
   }
 }

@@ -15,9 +15,9 @@
   opacity: .8;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .cover {
-    min-width: 100vw;
+    min-width: 100%;
     min-height: 640px;
   }
 }
@@ -25,7 +25,7 @@
 @media (max-width: 768px) {
   .cover {
     margin-top: 90px;
-    min-width: 100vw;
+    /* min-width: 100vw; */
     min-height: 480px;
   }
 }

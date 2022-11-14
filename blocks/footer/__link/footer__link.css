@@ -10,11 +10,18 @@
   line-height: 18px;
 }
 
+.footer__link:last-child {
+  margin-right: 0;
+
+}
+
 @media (max-width: 719px) {
   .footer__link {
     flex-grow: 0;
     font-size: 24px;
     line-height: 24px;
     padding-bottom: 32px;
+    font-size: 14px;
+    line-height: 14px;
   }
 }

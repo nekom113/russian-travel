@@ -1,9 +1,12 @@
 .selection {
+  color: white;
   opacity: 1;
   transition: opacity .5s ease;
+  text-decoration: none;
+
 }
 
 .selection:hover {
-  opacity: .2;
+  opacity: .8;
   transition: all .5s ease;
 }

@@ -11,10 +11,10 @@
 
 <body class="page">
   <header class="header">
-    <img src="./image/logo.png" alt="Логотип" class="header__logo">
+    <img src="./image/logo.svg" alt="Логотип" class="header__logo">
     <ul class="header__lang">
-      <li class="header__lang-link line">Ru</li>
-      <li class="header__lang-link">En</li>
+      <li class="header__lang-link header__lang-link_active"><a class="selection" href="#">Ru</a></li>
+      <li class="header__lang-link"><a class="selection" href="#">En</a></li>
     </ul>
   </header>
   <main class="main">
@@ -153,22 +153,23 @@
         </div>
       </article>
     </section>
-
-    <section class="cover">
+    <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala">
       <h2 class="cover__title">До Байкала «на собаках»</h2>
       <p class="cover__subtitle">По мотивам учебной темы
         о&#160;Транссибе—&#160;путешествие&#160;от&#160;столицы&#160;до&#160;Байкала на&#160;электричках.
       </p>
-    </section>
-    <footer class="footer">
-      <a href="#" class="footer__link selection">Карты</a>
-      <a href="#" class="footer__link selection">Погода</a>
-      <a href="#" class="footer__link selection">Расписание</a>
-      <a href="#" class="footer__link selection">Календарь</a>
-      <a href="#" class="footer__link selection">Путешествия</a>
-      <p class="footer__copyright">© 2022. Alex Piontek</p>
-    </footer>
+    </a>
   </main>
+  <footer class="footer">
+    <nav class="footer__navigation">
+      <a href="https://yandex.ru/maps" class="footer__link selection">Карты</a>
+      <a href="https://yandex.ru/pogoda" class="footer__link selection">Погода</a>
+      <a href="https://rasp.yandex.ru" class="footer__link selection">Расписание</a>
+      <a href="https://calendar.yandex.ru" class="footer__link selection">Календарь</a>
+      <a href="https://travel.yandex.ru" class="footer__link selection">Путешествия</a>
+      <p class="footer__copyright">© 2022. Alex Piontek</p>
+    </nav>
+  </footer>
 </body>
 
 </html>

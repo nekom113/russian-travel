@@ -3,8 +3,7 @@
   margin: 0;
   min-width: 176px;
   max-height: 52px;
-  position: relative;
-  top: -8px;
+
 }
 
 @media (max-width: 460px) {

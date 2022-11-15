@@ -29,6 +29,8 @@
 
 @media (max-width: 740px) {
   .header {
+    box-sizing: border-box;
+    padding: 16px 16px 0;
     width: 100%;
   }
 }

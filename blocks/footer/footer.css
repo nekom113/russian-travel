@@ -3,6 +3,8 @@
   margin: 0 auto;
   padding: 92px 0 24px;
   max-width: 1184px;
+  display: flex;
+  flex-direction: row;
 
 }
 
@@ -33,6 +35,7 @@
 @media (max-width: 768px) {
   .footer {
     max-width: 720px;
+    padding: 88px 0 28px;
 
   }
 }
@@ -49,6 +52,6 @@
     min-width: 186px;
     align-self: flex-start;
     max-width: 168px;
-    
+
   }
 }

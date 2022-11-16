@@ -16,6 +16,12 @@
 
 }
 
+@media (max-width: 768px) {
+  .footer__link {
+    margin-bottom: 0;
+    
+  }
+}
 @media (max-width: 719px) {
   .footer__link {
     margin-bottom: 0;

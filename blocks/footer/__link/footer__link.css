@@ -13,18 +13,16 @@
 
 .footer__link:last-child {
   margin-right: 0;
+
 }
 
 @media (max-width: 719px) {
   .footer__link {
+    margin-bottom: 0;
     flex-grow: 0;
     font-size: 24px;
     line-height: 24px;
-    gap: 42px;
+    /* gap: 42px; */
     line-height: 14px;
-  }
-
-  .footer__link:last-child {
-    margin-bottom: 0;
   }
 }

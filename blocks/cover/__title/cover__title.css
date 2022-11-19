@@ -11,11 +11,19 @@
   z-index: 3;
 }
 
-@media (max-width: 460px) {
+
+@media (max-width: 505px) {
+  .cover__title {
+    font-size: 55px;
+    line-height: 50px;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
     max-width: 255px;
-    margin-top: 20px;
   }
 }

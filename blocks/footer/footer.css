@@ -17,7 +17,6 @@
 
 @media (max-width: 1024px) {
   .footer {
-    /* padding: 92px 48px 24px; */
     max-width: 928px;
     padding: 92px 0 24px;
 
@@ -35,11 +34,10 @@
 @media (max-width: 768px) {
   .footer {
     max-width: 720px;
-    padding: 88px 0 28px;
+    padding: 88px 0 24px;
 
   }
 }
-
 
 @media (max-width: 720px) {
   .footer {

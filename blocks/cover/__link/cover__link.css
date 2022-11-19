@@ -1,5 +1,6 @@
 .cover__link {
-  min-width: 1184px;
+  margin: 0 auto;
+  max-width: 1184px;
   min-height: 740px;
   background-image: url('../../../image/cover-trains.jpg');
   background-repeat: no-repeat;
@@ -35,20 +36,26 @@
 }
 
 @media (max-width: 1200px) {
-  .cover {
+  .cover__link {
     min-width: 100%;
     min-height: 640px;
   }
 }
 
 @media (max-width: 768px) {
-  .cover {
+  .cover__link {
     min-height: 480px;
   }
 }
 
-@media (max-width: 460px) {
-  .cover {
+@media (max-width: 400px) {
+  .cover__link {
+    min-height: 280px;
+  }
+}
+
+@media (max-width: 330px) {
+  .cover__link {
     min-height: 200px;
   }
 }

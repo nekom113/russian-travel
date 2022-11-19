@@ -1,8 +1,15 @@
 .cover {
   margin: 0;
   margin-top: 92px;
-
   
+
+
+}
+
+@media (max-width: 1200px) {
+  .cover {
+    min-width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -16,5 +23,3 @@
     margin-top: 66px;
   }
 }
-
-

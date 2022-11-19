@@ -1,29 +1,24 @@
 .header {
-  padding: 0;
-  width: 92.3%;
-  padding-top: 27px;
+  width: 92.4%;
+  padding-top: 28px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 @media (max-width: 1024px) {
   .header {
-    width: 928px;
+    width: 90.6%;
+
   }
 }
 
-@media (max-width: 945px) {
-  .header {
-    width: 100%;
-  }
-}
 
 @media (max-width: 768px) {
   .header {
-    padding-top: 35px;
-    width: 720px;
+    width: 93.75%;
   }
 }
 
